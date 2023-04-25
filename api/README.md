@@ -13,10 +13,10 @@ Node v16.16.0
 Rendez-vous dans le dossier et complétez successivement ces étapes . 
 
 Installez les dépendances.
-`npm i`
-Personnalisez le .env
 
-  
+`npm i`
+
+Personnalisez le .env  
 
 ```
 PG_HOST=
@@ -36,6 +36,7 @@ SMTP_PASS=
 ```
 
 Et enfin démarrez le script.
+
 `npm run start`
 
 # Crédits

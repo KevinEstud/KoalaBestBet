@@ -8,18 +8,21 @@ Ceci est la partie front-end de l'application.
 Rendez-vous dans le dossier et complétez successivement ces étapes . 
 
 Installez les dépendances.
+
 `npm i`
+
 Personnalisez le .env
+
 
   
 
 ```
 REACT_APP_BASE_URL = <API_LINK>
 REACT_APP_RECAPTCHA_KEY = <GOOGLE_RECAPTCHA_KEY>
-
 ```
 
 Et enfin démarrez le script.
+
 `npm run start`
 
 # Crédits
