@@ -1,0 +1,30 @@
+{
+  "name": "v1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "build": "npm i pg bcrypt dotenv email-validator express cors node-fetch@2.0 jsonwebtoken",
+    "setup": "npm i nodemon pg http crypto cookie-parser nodemailer bcrypt dotenv socket.io email-validator express cors node-fetch@2.0 jsonwebtoken --save"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.1",
+    "email-validator": "^2.0.4",
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "node-fetch": "2.0",
+    "nodemailer": "^6.7.8",
+    "nodemon": "^2.0.16",
+    "pg": "^8.7.3",
+    "socket.io": "^4.5.1"
+  }
+}
