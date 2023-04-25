@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "build": "npm i pg bcrypt dotenv email-validator express cors node-fetch@2.0 jsonwebtoken",
-    "setup": "npm i nodemon pg http crypto cookie-parser nodemailer bcrypt dotenv socket.io email-validator express cors node-fetch@2.0 jsonwebtoken --save"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
