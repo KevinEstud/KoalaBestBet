@@ -6,7 +6,6 @@ const betController = require('./controllers/betControllers')
 const matchController = require('./controllers/matchesControllers')
 const adminController = require('./controllers/adminControllers')
 const supportController = require('./controllers/supportControllers')
-const portfolioController = require('./controllers/portfolioControllers')
 const userConnectedVerif = require('./utils/jwt.verify');
 
 router.get('/', (req, res) => {
@@ -15,7 +14,6 @@ router.get('/', (req, res) => {
         token: req?.cookies?.token
     })
 })
-router.post('/portfolio/send-email', portfolioController.sendEmail) // Connexion + JWT 
 router.put('/signup-action', userController.signupAction) // Inscription
 router.post('/login-action', userController.loginAction) // Connexion + JWT 
 router.post('/forgot-password', userController.forgotPasswordRequest) // Demander un nouveau mot de passe
